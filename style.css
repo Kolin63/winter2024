@@ -1,0 +1,50 @@
+@font-face {
+    font-family: segment;
+    src: url('art/7segment.ttf');
+}
+
+h1 {
+    color: darkcyan;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 15vh;
+    margin-bottom: 2vh;
+}
+
+h2 {
+    color: darkolivegreen;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 4vh;
+    margin-top: 0;
+}
+
+.countdown {
+    color: crimson;
+    font-family: segment;
+    font-size: 15vh;
+    text-align: center;
+}
+
+.slide {
+    background-color: #eee;
+    overflow-y: hidden;
+    height: 100vh;
+    margin: auto;
+    scroll-snap-align: start none;
+}
+
+body {
+    background-color: #eee;
+    margin: 0;
+}
+
+html {
+    scroll-snap-type: y proximity;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+}
